@@ -74,6 +74,7 @@ a{
 
 .container{
     padding: 20px;
+    padding-bottom: 50px;
     flex-direction: column;
     gap: 1rem;
 }
@@ -139,6 +140,14 @@ a{
     color: grey;
 }
 
+#left-para p:last-child{
+    text-align: left;
+}
+
+#left-para {
+    flex-direction: column;
+    gap: 1rem;
+}
 #fifth ul{
     /* flex-direction: column; */
     display: block;
