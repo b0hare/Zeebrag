@@ -52,13 +52,18 @@ header {
 
 nav {
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 ul {
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+}
+
+nav ul {
+    font-size: 1.25rem;
+    gap: 4rem;
 }
 
 .d-none {
@@ -109,6 +114,7 @@ a {
     height: 30vh;
     text-align: center;
     gap: 1rem;
+    margin-top: 1.5rem;
 }
 
 #third {
@@ -312,7 +318,6 @@ footer {
 @media (max-width: 700px) {
     nav {
         position: relative;
-        justify-content: space-around;
     }
 
     /* show hamburger on small screens */
@@ -343,6 +348,7 @@ footer {
         border-radius: 8px;
         box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
         transition: max-height .32s cubic-bezier(.2, .9, .2, 1), padding .25s;
+        gap: 1.5rem;
     }
 
     /* visible state */
@@ -443,6 +449,10 @@ footer {
     gap: 1rem;
   }
   .menu-toggle{ display: none; } */
+
+  nav ul{
+    gap: 2.5rem;
+  }
 
     #about #content {
         gap: 2rem;
